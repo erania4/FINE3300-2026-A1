@@ -76,7 +76,7 @@ class ExchangeRates:
 
             # If one of the two currencies is not CAD or USD, this statement is printed informing the user of their invalidity.
 
-amount = float(input("Please enter the amount you would like to convert: "))
+amount = float(input("Please enter the amount you would like to convert (with no formatting): "))
 from_currency = input("Enter the 'from' currency (USD or CAD): ").strip().upper()
 to_currency = input("Enter the 'to' currency (USD or CAD): ").strip().upper()
 exchange_rate_file = input("Enter the path to the exchange rate file you would like to reference: ").strip().strip('"')
