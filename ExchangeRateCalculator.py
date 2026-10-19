@@ -1,3 +1,7 @@
+"""Below is my code for a USD/CAD exchange rate calculator.
+It uses any file and amount that you desire, and converts it across the USD and CAD currencies.
+This was made for my first coding assignment. I hope you enjoy looking through/using it."""
+
 import csv
     # My first step, as seen above, was to import the csv (comma-separated values) module. 
     # This will allow me to properly make my way through the BankOfCanadaExchangeRate.2026.csv file and extract the required data.
