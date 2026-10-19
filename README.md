@@ -35,17 +35,25 @@ User inputs are italicized.
 ### Exchanging $100,000 USD to CAD using BankOfCanadaExchangeRate.2026.csv:
 
 >Please enter the amount you would like to convert (with no formatting): *100000*
+>
 >Enter the 'from' currency (USD or CAD): *USD*
+>
 >Enter the 'to' currency (USD or CAD): *CAD*
+>
 >Enter the path to the exchange rate file you would like to reference: *"C:\Users\erani\Downloads\BankOfCanadaExchangeRate.2026.csv"*
+>
 >$100,000.00 USD is equal to $139,780.00 CAD!
 
 ### Exchanging $100,000 CAD to USD using BankOfCanadaExchangeRate.2026.csv:
 
 >Please enter the amount you would like to convert (with no formatting): *100000*
+>
 >Enter the 'from' currency (USD or CAD): *CAD*
+>
 >Enter the 'to' currency (USD or CAD): *USD*
+>
 >Enter the path to the exchange rate file you would like to reference: *"C:\Users\erani\Downloads\BankOfCanadaExchangeRate.2026.csv"*
+>
 >$100,000.00 CAD is equal to $71,540.99 USD!
 
 # Part Two – Vibe Coding
@@ -73,24 +81,36 @@ This next time, I noticed that everything was working much better. I found that 
 
 ## The LLM/AI Model’s Output
 
+Upon running the AI model’s code and answering the input prompts, the outputs are as seen below:
+
 User inputs are italicized.
 
 ### Exchanging $100,000 USD to CAD using BankOfCanadaExchangeRate.2026.csv:
 
 > Enter the exchange rate file name: "C:\Users\erani\Downloads\BankOfCanadaExchangeRate.2026.csv"
+>
 >Enter the amount: *100000*
+>
 >Convert from (CAD or USD): *USD*
+>
 >Convert to (CAD or USD): *CAD*
+>
 >Latest USD/CAD rate: 1.3978
+>
 >100000.00 USD = 139780.00 CAD
 
 ### Exchanging $100,000 CAD to USD using BankOfCanadaExchangeRate.2026.csv:
 
 >Enter the exchange rate file name: "C:\Users\erani\Downloads\BankOfCanadaExchangeRate.2026.csv"
+>
 >Enter the amount: *100000*
+>
 >Convert from (CAD or USD): *CAD*
+>
 >Convert to (CAD or USD): *USD*
+>
 >Latest USD/CAD rate: 1.3978
+>
 >100000.00 CAD = 71540.99 USD
 
 ## Code Comparison
